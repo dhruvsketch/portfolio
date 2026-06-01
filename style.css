@@ -415,6 +415,10 @@ body::after {
     position: relative;
 }
 
+/* Skills Section */
+.skills-section {
+    background: rgba(248, 250, 252, 0.65);
+}
 
 .about-content {
     display: grid;
@@ -422,6 +426,7 @@ body::after {
     gap: 4rem;
     align-items: center;
 }
+
 
 .about-text h3 {
     font-size: 1.8rem;
@@ -463,10 +468,11 @@ body::after {
     font-size: 0.9rem;
     font-weight: 500;
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: grab;
     position: relative;
     overflow: hidden;
 }
+
 
 .skill-tag::before {
     content: '';
@@ -650,7 +656,7 @@ body::after {
 
 .project-card:hover {
     transform: translateY(-15px) scale(1.02);
-    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(37,117,252,0.4);
 }
 
 .project-image {
